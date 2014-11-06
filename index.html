@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta name="author" content="Garrett Bryan">
+   <meta name="description" content="Bitcoin Monthly History">
+   <title>Bitcoin Price History</title>
+   <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0">
+   <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.6.2.min.js"></script>
+        <!--jQuery, linked from a CDN-->
+   <script src="scripts.js"></script>
+   <style>
+    canvas {
+      border: 1px solid #000000
+    }
+    </style>
+</head>
+<body>
+<div class="container">
+   <header>
+      <h1>Bitcoin Monthly History</h1>
+   </header>
+   <ul>
+     <li><h3 id="monthlyHigh">Monthly High:</h3></li>
+     <li><h3 id="monthlyLow">Monthly Low:</h3></li>
+     <li><h3 id="monthlyAve"> Monthly Average</h3></li>
+   </ul>
+   <canvas id="bitcoinChart" width="800" height="500" ></canvas>
+   <footer>
+      <p>Created by <a href="http://outlyingoutlier.com/">Garrett Bryan</a></p>
+   </footer>
+</div>
+</body>
+</html>
